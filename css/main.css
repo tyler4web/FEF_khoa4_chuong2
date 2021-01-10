@@ -83,6 +83,25 @@ header .dropDown_navBar {
   border-bottom: 1px solid #e4e5e7;
 }
 
+header .dropDown_navBar .btn {
+  border-radius: 0;
+}
+
+header .dropDown_navBar .btn:hover,
+header .dropDown_navBar .btn:active,
+header .dropDown_navBar .btn:focus {
+  border-bottom: 3px solid #19a463;
+}
+
+header .dropDown_navBar .btn:focus {
+  box-shadow: none;
+}
+
+header .dropDown_navBar .dropdown-menu_content {
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
 .banner-top {
   position: relative;
 }

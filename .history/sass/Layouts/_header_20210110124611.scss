@@ -47,14 +47,10 @@ header {
     .btn:hover,
     .btn:active,
     .btn:focus {
-      border-bottom: 3px solid $color-green-5;
+      border-bottom: 1px solid $color-green-5;
     }
     .btn:focus {
       box-shadow: none;
-    }
-    .dropdown-menu_content {
-      justify-content: space-between;
-      padding-right: 30px;
     }
   }
 }

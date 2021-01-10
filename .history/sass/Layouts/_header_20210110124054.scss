@@ -42,19 +42,13 @@ header {
     border-top: 1px solid $color-gray-0;
     border-bottom: 1px solid $color-gray-0;
     .btn {
-      border-radius: 0;
+      border-radius: none;
     }
-    .btn:hover,
-    .btn:active,
-    .btn:focus {
-      border-bottom: 3px solid $color-green-5;
+    .btn:hover,.btn:active,.btn {
+      border-bottom: $color-green-5;
     }
     .btn:focus {
       box-shadow: none;
-    }
-    .dropdown-menu_content {
-      justify-content: space-between;
-      padding-right: 30px;
     }
   }
 }
