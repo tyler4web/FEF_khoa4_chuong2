@@ -1,0 +1,13 @@
+.myNavBar {
+  .myNavBar__left {
+    display: flex;
+    .myNavbar__form-search{
+
+    }
+    
+  }
+  .myNavBar__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,11 +1,8 @@
-header {
-  .myNavBar {
-    .myNavBar__left {
-      display: flex;
-      .form-search__group {
-        margin-left: 25px;
-        margin-top: 5px;
-        position: relative;
+.myNavBar {
+  .myNavBar__left {
+    display: flex;
+    .myNavbar__form-search {
+      .input-group {
         .form-search__icon {
           position: absolute;
           z-index: 5;
@@ -27,19 +24,9 @@ header {
         }
       }
     }
-    .myNavBar__right {
-      display: flex;
-      justify-content: flex-end;
-      .button-green-text {
-        margin-top: 5px;
-      }
-    }
   }
-  .dropDown_navBar {
+  .myNavBar__right {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 10px;
-    border-top: 1px solid $color-gray-0;
-    border-bottom: 1px solid $color-gray-0;
+    justify-content: flex-end;
   }
 }

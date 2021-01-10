@@ -32,7 +32,7 @@
 }
 
 .button-green-text {
-  @include styleButton(
+    @include styleButton(
     $color-green-5,
     transparent,
     $color-green-5,

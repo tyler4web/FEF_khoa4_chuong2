@@ -1,0 +1,23 @@
+.myNavBar {
+  .myNavBar__left {
+    display: flex;
+    .myNavbar__form-search {
+      span {
+        position: absolute;
+        z-index: 5;
+        top: 8px;
+        left: 8px;
+        display: inline-block;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        fill: #222325;
+      }
+    }
+  }
+  .myNavBar__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

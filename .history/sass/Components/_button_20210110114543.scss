@@ -42,6 +42,6 @@
     $pd-3
   );
   &:hover {
-    @include hoverButton($color-white-0, $color-green-0, $color-green-0);
+    @include hoverButton($color-white-0, $color-green-5, $color-green-5);
   }
 }

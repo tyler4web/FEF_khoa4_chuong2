@@ -1,0 +1,9 @@
+.myNavBar {
+  .myNavBar__left {
+    display: flex;
+  }
+  .myNavBar__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

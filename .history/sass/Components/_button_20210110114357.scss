@@ -1,4 +1,4 @@
-.button-white-text {
+.button-white {
   @include styleButton(
     $color-white-0,
     transparent,
@@ -31,17 +31,8 @@
   }
 }
 
-.button-green-text {
-  @include styleButton(
-    $color-green-5,
-    transparent,
-    $color-green-5,
-    $fs-1,
-    $fw-1,
-    $pd-0,
-    $pd-3
-  );
-  &:hover {
-    @include hoverButton($color-white-0, $color-green-0, $color-green-0);
-  }
+.element {
+	color: green;
+	border: 1px solid green;
 }
+
