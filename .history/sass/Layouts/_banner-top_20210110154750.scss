@@ -1,0 +1,51 @@
+.banner-top {
+  position: relative;
+
+  .banner-top__content {
+    position: absolute;
+    width: 50%;
+    top: 32%;
+    left: 6%;
+    z-index: 1;
+    h1 {
+      padding-bottom: 24px;
+      color: white;
+      line-height: 56px;
+      font-size: 48px;
+      i {
+        font-weight: 500;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+  .banner-top-searchBar {
+    .form-search__group {
+      position: relative;
+      .form-search__icon {
+        position: absolute;
+        z-index: 5;
+        top: 6px;
+        left: 10px;
+        display: inline-block;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        fill: $color-gray-2;
+      }
+      .form-search__input {
+        font-size: 15px;
+        padding-top: 9px;
+        border-right: 0;
+        border-radius: 3px 0 0 3px;
+        padding-left: 32px;
+      }
+    }
+  }
+  .banner-top-popular {
+    element {
+      display: flex;
+    }
+  }
+}
