@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#cd3b92",
+        "activityBar.activeBorder": "#354c13",
+        "activityBar.background": "#cd3b92",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#354c13",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "editorGroup.border": "#cd3b92",
+        "panel.border": "#cd3b92",
+        "sideBar.border": "#cd3b92",
+        "statusBar.background": "#aa2b77",
+        "statusBar.border": "#aa2b77",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#cd3b92",
+        "tab.activeBorder": "#cd3b92",
+        "titleBar.activeBackground": "#aa2b77",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.border": "#aa2b77",
+        "titleBar.inactiveBackground": "#aa2b7799",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#aa2b77",
+    "liveSassCompile.settings.showOutputWindow": false
+}
