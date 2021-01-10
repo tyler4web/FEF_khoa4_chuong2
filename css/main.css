@@ -85,11 +85,17 @@ header .dropDown_navBar {
 
 header .dropDown_navBar .btn {
   border-radius: 0;
+  padding-bottom: 3px;
 }
 
-header .dropDown_navBar .btn:hover,
-header .dropDown_navBar .btn:active,
-header .dropDown_navBar .btn:focus {
+header .dropDown_navBar .btn a {
+  color: #95979d;
+  text-decoration: none;
+}
+
+header .dropDown_navBar .btn a:hover,
+header .dropDown_navBar .btn a:active,
+header .dropDown_navBar .btn a:focus {
   border-bottom: 3px solid #19a463;
 }
 

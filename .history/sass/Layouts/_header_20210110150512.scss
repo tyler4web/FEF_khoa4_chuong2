@@ -43,22 +43,16 @@ header {
     border-bottom: 1px solid $color-gray-0;
     .btn {
       border-radius: 0;
-      padding-bottom: 3px;
-      a {
-        color: $color-gray-2;
-        text-decoration: none;
-      }
-      a:hover,
-      a:active,
-      a:focus {
-        border-bottom: 3px solid $color-green-5;
-      }
+      margin
     }
-
+    .btn:hover,
+    .btn:active,
+    .btn:focus {
+      border-bottom: 3px solid $color-green-5;
+    }
     .btn:focus {
       box-shadow: none;
     }
-
     .dropdown-menu_content {
       justify-content: space-between;
       padding-right: 30px;
