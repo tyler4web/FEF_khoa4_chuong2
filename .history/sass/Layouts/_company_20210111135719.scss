@@ -1,0 +1,18 @@
+.company {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  align-items: center;
+  justify-content: center;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 60px;
+}
+  }
+}

@@ -1,0 +1,24 @@
+.company {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  align-items: center;
+  justify-content: center;
+  span{
+    @mixin styleText($color-gray-2,100%,)
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding-left: 60px;
+      img {
+        display: block;
+        height: 60px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
