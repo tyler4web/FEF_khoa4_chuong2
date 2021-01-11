@@ -1,0 +1,36 @@
+.marketplace {
+  h2 {
+    padding-left: 15px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 40px;
+      a {
+        color: $color-black-0;
+        img {
+          display: block;
+          width: 48px;
+          margin: 0 auto 15px;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 45px;
+        right: 50%;
+        transform: translateX(50%);
+        padding: 0 0 8px;
+        width: 48px;
+        border-bottom: 2px solid #c5c6c9;
+      }
+    }
+  }
+}

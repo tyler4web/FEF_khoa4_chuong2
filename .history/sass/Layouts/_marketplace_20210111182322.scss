@@ -1,0 +1,20 @@
+.marketplace {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    li {
+        element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+}
+      img {
+        display: block;
+        width: 48px;
+      }
+    }
+  }
+}

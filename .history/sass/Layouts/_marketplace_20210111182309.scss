@@ -1,0 +1,14 @@
+.marketplace {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    li {
+      img {
+        display: block;
+        width: 48px;
+      }
+    }
+  }
+}
