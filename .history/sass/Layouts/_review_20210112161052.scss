@@ -1,0 +1,21 @@
+.review {
+  .review__item__right {
+    h5 {
+      font-weight: 400;
+      color: #7a7d85;
+      padding-bottom: 16px;
+      span{
+          .logged-out-homepage .testimonials .text-content .testimonial-logo {
+    border-left: 1px solid #c5c6c9;
+    height: 36px;
+    margin-left: 16px;
+}
+      }
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 12px;
+      }
+    }
+  }
+}

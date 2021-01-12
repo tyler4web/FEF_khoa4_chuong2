@@ -1,0 +1,38 @@
+.review {
+  .review__container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .review__item__left {
+  }
+
+  .review__item__right {
+    padding: 0 48px 0 64px;
+    h5 {
+      font-weight: 400;
+      color: #7a7d85;
+      padding-bottom: 16px;
+      span {
+        height: 36px;
+        margin-left: 16px;
+        display: inline-block;
+        border-left: 1px solid #c5c6c9;
+        img {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 12px;
+          height: 36px;
+        }
+      }
+    }
+
+    blockquote {
+      font-size: 30px;
+      line-height: 44px;
+      color: black;
+      i {
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.business {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0d084d;
+  color: white;
+  .business-container {
+    .business-left {
+      padding-right: 5%;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        span {
+          font-size: 23px;
+          font-weight: 900;
+        }
+      }
+    }
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}

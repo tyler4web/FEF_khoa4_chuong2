@@ -78,6 +78,14 @@ a:hover {
   right: -3px;
 }
 
+.review .owl-carousel .owl-nav button.owl-prev {
+  left: 17px;
+}
+
+.review .owl-carousel .owl-nav button.owl-next {
+  right: 30px;
+}
+
 header .myNavBar .myNavBar__left {
   display: flex;
 }
@@ -375,7 +383,7 @@ header .dropDown_navBar .dropdown-menu_content {
 }
 
 .marketplace h2 {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .marketplace ul {
@@ -411,6 +419,113 @@ header .dropDown_navBar .dropdown-menu_content {
   padding: 0 0 8px;
   width: 48px;
   border-bottom: 2px solid #c5c6c9;
+}
+
+.business {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0d084d;
+  color: white;
+}
+
+.business .business-container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.business .business-container .business-left {
+  padding-right: 5%;
+}
+
+.business .business-container .business-left .business-logo-new {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.business .business-container .business-left .business-logo-new .fiver-logo {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.business .business-container .business-left p {
+  padding-bottom: 32px;
+}
+
+.business .business-container .business-left h2 {
+  color: white;
+}
+
+.business .business-container .business-left .new {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 3px 7px 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 999px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.business .business-container .business-left ul {
+  padding-bottom: 30px;
+}
+
+.business .business-container .business-left ul li {
+  padding-bottom: 12px;
+}
+
+.business .business-container .business-left .button-green {
+  padding: 15px 41px;
+  font-size: 18px;
+}
+
+.business .business-container .business-right img {
+  width: calc(100% + 16px);
+  margin: 0 -16px 0 0;
+}
+
+.review .review__container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.review .review__item__right {
+  padding: 0 48px 0 64px;
+}
+
+.review .review__item__right h5 {
+  font-weight: 400;
+  color: #7a7d85;
+  padding-bottom: 16px;
+}
+
+.review .review__item__right h5 span {
+  height: 36px;
+  margin-left: 16px;
+  display: inline-block;
+  border-left: 1px solid #c5c6c9;
+}
+
+.review .review__item__right h5 span img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+  height: 36px;
+}
+
+.review .review__item__right blockquote {
+  font-size: 30px;
+  line-height: 44px;
+  color: black;
+}
+
+.review .review__item__right blockquote i {
+  font-weight: 500;
 }
 
 .button-white-text {

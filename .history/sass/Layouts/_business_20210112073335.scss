@@ -1,0 +1,37 @@
+.business {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0d084d;
+  color: white;
+  .business-container {
+    .business-left {
+      padding-right: 5%;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        .fiver-logo {
+          font-size: 23px;
+          font-weight: 900;
+        }
+      }
+      .new {
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 3px 7px 3px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 999px;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+        margin-left: 10px;
+        /* margin-bottom: 3px; */
+      }
+    }
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
