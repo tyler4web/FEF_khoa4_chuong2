@@ -1,0 +1,14 @@
+.project{
+    .project__carousel
+    {.owl-item img {
+	display: block;
+	width: 100%;
+	/* height: 237px; */
+	/* width: 100%; */
+	-o-object-fit: cover;
+	object-fit: cover;
+	border-radius: 4px 4px 0 0;
+	transition: opacity .3s ease-in-out;
+	/* display: ; */
+}
+}

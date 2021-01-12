@@ -1,0 +1,42 @@
+.project {
+  .project__container {
+position: relative;
+    .see-more-link {
+      position: absolute;
+      top: 10px;
+      right: 50px;
+    }
+    .project__carousel {
+      
+
+      .owl-item {
+        img {
+          display: block;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 4px 4px 0 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+
+        .project__avatar {
+          display: flex;
+          padding: 16px 0 12px 16px;
+          box-sizing: border-box;
+          img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+          a {
+            display: block;
+            color: #404145;
+          }
+          a:first-child {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
