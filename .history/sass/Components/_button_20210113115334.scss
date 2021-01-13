@@ -14,9 +14,8 @@
 }
 
 .button-green {
-  display: block;
   border: none;
-  border-radius: $border-radious-1;
+  border-radius: $;
   @include styleButton(
     $color-white-0,
     $color-green-0,

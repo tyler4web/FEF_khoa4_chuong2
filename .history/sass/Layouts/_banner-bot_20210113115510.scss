@@ -1,0 +1,27 @@
+.banner-bot__container {
+  background: url(../../img/banner-bot1.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  position: relative;
+  .banner-bot__text {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    h2 {
+      color: white;
+      max-width: 670px;
+      font-size: 48px;
+      line-height: 56px;
+      i {
+        font-weight: 500;
+      }
+    }
+  }
+  .button-green {
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+}

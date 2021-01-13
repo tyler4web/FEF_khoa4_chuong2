@@ -14,7 +14,6 @@
 }
 
 .button-green {
-  display: block;
   border: none;
   border-radius: $border-radious-1;
   @include styleButton(
@@ -24,7 +23,7 @@
     $fs-1,
     $fw-2,
     $pd-2,
-    $pd-5
+    $pd-3
   );
   &:hover {
     @include hoverButton($color-white-0, $color-green-5, $color-green-5);
