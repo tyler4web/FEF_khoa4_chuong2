@@ -1,0 +1,12 @@
+.guide
+element {
+	border-radius: 4px;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	display: block;
+	margin-bottom: 12px;
+	-webkit-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}

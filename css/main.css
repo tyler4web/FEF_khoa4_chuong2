@@ -58,6 +58,12 @@ a:hover {
   text-decoration: none;
 }
 
+h6 {
+  padding-bottom: 2px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
   color: #000000;
   background-color: #ffffff;
@@ -584,6 +590,25 @@ header .dropDown_navBar .dropdown-menu_content {
 
 .project .project__container .project__carousel .owl-item .project__avatar a:first-child {
   font-weight: 700;
+}
+
+.guide {
+  position: relative;
+}
+
+.guide .guide__container .guide__item img {
+  border-radius: 4px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 12px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.guide .see-more-link {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 .button-white-text {
