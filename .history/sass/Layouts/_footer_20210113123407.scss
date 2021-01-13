@@ -1,0 +1,28 @@
+.site-footer .footer-wrapper.max-width-container {
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+.footer-container {
+  width: 95%;
+  margin: 0 auto;
+  a {
+    color: #7a7d85;
+  }
+}
+.footer-item:first-child {
+  padding-left: 20px;
+}
+.footer-item {
+  li:first-child {
+    color: #404145;
+    font-weight: 700;
+  }
+  li {
+    padding-bottom: 16px;
+  }
+  small {
+    color: #b5b6ba;
+    font-size: 14px;
+    display: block;
+  }
+}

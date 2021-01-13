@@ -643,6 +643,39 @@ header .dropDown_navBar .dropdown-menu_content {
   font-size: 15px;
 }
 
+footer {
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+footer .footer-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .footer-container a {
+  color: #7a7d85;
+}
+
+footer .footer-item:first-child {
+  padding-left: 20px;
+}
+
+footer .footer-item li:first-child {
+  color: #404145;
+  font-weight: 700;
+}
+
+footer .footer-item li {
+  padding-bottom: 16px;
+}
+
+footer .footer-item small {
+  color: #b5b6ba;
+  font-size: 14px;
+  display: block;
+}
+
 .button-white-text {
   color: #ffffff;
   background-color: transparent;

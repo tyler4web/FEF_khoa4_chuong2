@@ -1,0 +1,10 @@
+.footer-container {
+  width: 95%;
+  margin: 0 auto;
+  .footer-item:first-child {
+    padding-left: 20px;
+  }
+  .footer-item{
+      list-style: firstchild;
+  }
+}
