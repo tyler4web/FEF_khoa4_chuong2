@@ -28,26 +28,17 @@ footer {
   }
 
   .bottom {
-    .bottom__left {
-      p {
-        display: flex;
-        align-items: center;
-      }
-      span {
-        margin-top: 5px;
-        margin-left: 20px;
-      }
-    }
     .bottom__right {
       display: flex;
       justify-content: flex-end;
       ul {
         display: flex;
         justify-content: space-around;
-        li {
-          padding-right: 30px;
-          font-size: 25px;
-        }
+        element {
+	justify-content: space-around;
+	padding-right: 30px;
+	font-size: 25px;
+}
       }
     }
   }

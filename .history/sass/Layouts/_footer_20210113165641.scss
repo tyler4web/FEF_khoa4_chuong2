@@ -28,16 +28,12 @@ footer {
   }
 
   .bottom {
-    .bottom__left {
-      p {
-        display: flex;
-        align-items: center;
-      }
-      span {
-        margin-top: 5px;
-        margin-left: 20px;
-      }
-    }
+      .bottom__left{
+          
+      } {
+	display: flex;
+	align-items: center;
+}
     .bottom__right {
       display: flex;
       justify-content: flex-end;

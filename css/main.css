@@ -676,6 +676,21 @@ footer .footer-item small {
   display: block;
 }
 
+footer .bottom .bottom__right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .bottom .bottom__right ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .bottom .bottom__right ul li {
+  padding-right: 30px;
+  font-size: 25px;
+}
+
 .button-white-text {
   color: #ffffff;
   background-color: transparent;
