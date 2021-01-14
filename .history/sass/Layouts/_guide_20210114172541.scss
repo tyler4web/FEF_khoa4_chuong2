@@ -1,0 +1,25 @@
+.guide {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  position: relative;
+  .container-fluid {
+    
+    .guide__container {
+      .guide__item {
+        img {
+          border-radius: 4px;
+          width: 100%;
+          object-fit: cover;
+          display: block;
+          margin-bottom: 12px;
+          transition: opacity 0.3s ease-in-out;
+        }
+      }
+    }
+    .see-more-link {
+      position: absolute;
+      top: 105px;
+      right: 60px;
+    }
+  }
+}

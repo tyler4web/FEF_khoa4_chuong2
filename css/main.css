@@ -513,11 +513,17 @@ header .dropDown_navBar .dropdown-menu_content {
 .business .business-container .business-left .button-green {
   padding: 15px 41px;
   font-size: 18px;
+  border-radius: 6%;
 }
 
 .business .business-container .business-right img {
   width: calc(100% + 16px);
   margin: 0 -16px 0 0;
+}
+
+.review {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .review .review__container {
@@ -610,10 +616,17 @@ header .dropDown_navBar .dropdown-menu_content {
 }
 
 .guide {
+  padding-top: 96px;
+  padding-bottom: 96px;
   position: relative;
 }
 
-.guide .guide__container .guide__item img {
+.guide .container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.guide .container-fluid .guide__container .guide__item img {
   border-radius: 4px;
   width: 100%;
   object-fit: cover;
@@ -622,39 +635,45 @@ header .dropDown_navBar .dropdown-menu_content {
   transition: opacity 0.3s ease-in-out;
 }
 
-.guide .see-more-link {
+.guide .container-fluid .see-more-link {
   position: absolute;
-  top: 10px;
-  right: 40px;
+  top: 105px;
+  right: 60px;
 }
 
-.banner-bot__container {
+.banner-bot {
+  padding-bottom: 96px;
+  border-bottom: 1px solid #c5c6c9;
+}
+
+.banner-bot .banner-bot__container {
   background: url(../../img/banner-bot1.png);
-  width: 100%;
+  width: 95%;
   background-size: cover;
   background-position: center;
   height: 450px;
   position: relative;
+  margin: 0 auto;
 }
 
-.banner-bot__container .banner-bot__text {
+.banner-bot .banner-bot__container .banner-bot__text {
   position: absolute;
   top: 30%;
   left: 6%;
 }
 
-.banner-bot__container .banner-bot__text h2 {
+.banner-bot .banner-bot__container .banner-bot__text h2 {
   color: white;
   max-width: 670px;
   font-size: 48px;
   line-height: 56px;
 }
 
-.banner-bot__container .banner-bot__text h2 i {
+.banner-bot .banner-bot__container .banner-bot__text h2 i {
   font-weight: 500;
 }
 
-.banner-bot__container .button-green {
+.banner-bot .banner-bot__container .button-green {
   display: inline-block;
   border-radius: 5px;
   font-size: 15px;
@@ -668,6 +687,7 @@ footer {
 footer .footer-container {
   width: 95%;
   margin: 0 auto;
+  border-bottom: 1px solid #c5c6c9;
 }
 
 footer .footer-container a {
@@ -679,7 +699,7 @@ footer .footer-item:first-child {
 }
 
 footer .footer-item li:first-child {
-  color: #404145;
+  color: #000000;
   font-weight: 700;
 }
 
@@ -693,27 +713,31 @@ footer .footer-item small {
   display: block;
 }
 
-footer .bottom .bottom__left p {
+footer .bottom .bottom-container {
+  padding: 20px;
+}
+
+footer .bottom .bottom-container .bottom__left p {
   display: flex;
   align-items: center;
 }
 
-footer .bottom .bottom__left span {
+footer .bottom .bottom-container .bottom__left span {
   margin-top: 5px;
   margin-left: 20px;
 }
 
-footer .bottom .bottom__right {
+footer .bottom .bottom-container .bottom__right {
   display: flex;
   justify-content: flex-end;
 }
 
-footer .bottom .bottom__right ul {
+footer .bottom .bottom-container .bottom__right ul {
   display: flex;
   justify-content: space-around;
 }
 
-footer .bottom .bottom__right ul li {
+footer .bottom .bottom-container .bottom__right ul li {
   padding-right: 30px;
   font-size: 25px;
 }
