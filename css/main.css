@@ -681,7 +681,6 @@ header .dropDown_navBar .dropdown-menu_content {
 
 footer {
   padding-top: 64px;
-  padding-bottom: 24px;
 }
 
 footer .footer-container {
@@ -714,7 +713,7 @@ footer .footer-item small {
 }
 
 footer .bottom .bottom-container {
-  padding: 20px;
+  padding: 30px 30px 0px;
 }
 
 footer .bottom .bottom-container .bottom__left p {
