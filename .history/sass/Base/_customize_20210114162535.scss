@@ -2,11 +2,14 @@
   .owl-nav {
     button {
       span {
-        top: -23%;
-        position: absolute;
-        left: 17px;
-        font-size: 40px;
-        font-weight: 900;
+        element {
+          /* display: flex; */
+          top: -23%;
+          /* align-items: flex-start; */
+          /* justify-content: center; */
+          position: absolute;
+          left: 17px;
+        }
       }
       &.owl-prev,
       &.owl-next {
@@ -21,10 +24,10 @@
         top: 35%;
       }
       &.owl-prev {
-        left: -20px;
+        left: -15px;
       }
       &.owl-next {
-        right: -17px;
+        right: -3px;
       }
     }
   }
