@@ -1,0 +1,71 @@
+.business {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0d084d;
+  color: white;
+
+  .business-container {
+    max-width: 95%;
+    margin: 0 auto;
+    .business-left {
+      padding-right: 5%;
+      .business-logo-new {
+        font-size: 20px;
+        font-weight: 600;
+        .fiver-logo {
+          font-size: 23px;
+          font-weight: 900;
+        }
+      }
+      p {
+        padding-bottom: 32px;
+      }
+      h2 {
+        color: white;
+      }
+      .new {
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 3px 7px 3px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 999px;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1;
+        margin-left: 10px;
+      }
+      ul {
+        padding-bottom: 30px;
+        li {
+          padding-bottom: 12px;
+        }
+      }
+      .button-green {
+        padding: 15px 41px;
+        font-size: 18px;
+        border-radius: 6%;
+      }
+    }
+    .business-right {
+      img {
+        width: calc(100% + 16px);
+        margin: 0 -16px 0 0;
+      }
+    }
+  }
+  @include responsive("medium") {
+    .business-left {
+      h2 {
+        font-size: 24px;
+        line-height: 100%;
+      }
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+}

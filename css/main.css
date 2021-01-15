@@ -313,6 +313,7 @@ header .dropDown_navBar .dropdown-menu_content {
   display: flex;
   color: white;
   padding-top: 24px;
+  flex-wrap: wrap;
 }
 
 .banner-top .banner-top-popular ul {
@@ -370,6 +371,18 @@ header .dropDown_navBar .dropdown-menu_content {
   margin-top: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .company span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .company ul li {
+    padding-left: 30px;
+  }
+}
+
 .service {
   width: 95%;
   margin: 0 auto;
@@ -393,11 +406,12 @@ header .dropDown_navBar .dropdown-menu_content {
   color: white;
   padding: 16px;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 110%;
 }
 
 .service .service__carousel .item h4 small {
   font-size: 60%;
+  display: block;
 }
 
 .freelance {
@@ -429,6 +443,19 @@ header .dropDown_navBar .dropdown-menu_content {
   display: block;
   width: 90%;
   margin: 50px 0 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .freelance .freelance__content p {
+    font-size: 13px;
+  }
+  .freelance .freelance__content h6 {
+    font-size: 15px;
+  }
+  .freelance .freelance__right {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .marketplace h2 {
@@ -539,6 +566,21 @@ header .dropDown_navBar .dropdown-menu_content {
   margin: 0 -16px 0 0;
 }
 
+@media screen and (max-width: 768px) {
+  .business .business-container .business-left h2 {
+    font-size: 24px;
+    line-height: 100%;
+  }
+  .business .business-container .business-left ul li {
+    font-size: 15px;
+  }
+  .business .business-container .business-left .button-green {
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 3%;
+  }
+}
+
 .review {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -633,6 +675,12 @@ header .dropDown_navBar .dropdown-menu_content {
   font-weight: 700;
 }
 
+@media screen and (max-width: 1200px) {
+  .project .project__container .see-more-link {
+    display: none;
+  }
+}
+
 .guide {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -697,6 +745,12 @@ header .dropDown_navBar .dropdown-menu_content {
   font-size: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .banner-bot .banner-bot__container .banner-bot__text h2 {
+    font-size: 36px;
+  }
+}
+
 footer {
   padding-top: 64px;
 }
@@ -757,6 +811,12 @@ footer .bottom .bottom-container .bottom__right ul {
 footer .bottom .bottom-container .bottom__right ul li {
   padding-right: 30px;
   font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    font-size: 11px;
+  }
 }
 
 .button-white-text {
