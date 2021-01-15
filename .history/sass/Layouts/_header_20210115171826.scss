@@ -70,20 +70,7 @@ header {
     }
   }
 
-  @include responsive("large") {
+  @include responsive("large"){
     .myNavBar {
-      .myNavBar__right {
-        .language,
-        .money {
-          display: none;
-        }
-        .navbar-nav {
-          flex-direction: row;
-          li {
-            margin-right: 20px;
-          }
-        }
-      }
-    }
   }
 }

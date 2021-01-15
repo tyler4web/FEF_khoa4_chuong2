@@ -108,10 +108,6 @@ h6 {
   right: -30px;
 }
 
-header .myNavBar {
-  height: 80px;
-}
-
 header .myNavBar .myNavBar__left {
   display: flex;
 }
@@ -120,7 +116,6 @@ header .myNavBar .myNavBar__left .form-search__group {
   margin-left: 25px;
   margin-top: 5px;
   position: relative;
-  display: none;
 }
 
 header .myNavBar .myNavBar__left .form-search__group .form-search__icon {
@@ -188,19 +183,6 @@ header .dropDown_navBar .btn:focus {
 header .dropDown_navBar .dropdown-menu_content {
   justify-content: space-between;
   padding-right: 30px;
-}
-
-@media screen and (max-width: 992px) {
-  header .myNavBar .myNavBar__right .language,
-  header .myNavBar .myNavBar__right .money {
-    display: none;
-  }
-  header .myNavBar .myNavBar__right .navbar-nav {
-    flex-direction: row;
-  }
-  header .myNavBar .myNavBar__right .navbar-nav li {
-    margin-right: 20px;
-  }
 }
 
 .banner-top {

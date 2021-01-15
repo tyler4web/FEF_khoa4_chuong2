@@ -7,7 +7,6 @@ header {
         margin-left: 25px;
         margin-top: 5px;
         position: relative;
-        display: none;
         .form-search__icon {
           position: absolute;
           z-index: 5;
@@ -70,20 +69,8 @@ header {
     }
   }
 
-  @include responsive("large") {
-    .myNavBar {
-      .myNavBar__right {
-        .language,
-        .money {
-          display: none;
-        }
-        .navbar-nav {
-          flex-direction: row;
-          li {
-            margin-right: 20px;
-          }
-        }
-      }
-    }
+  @include repsonvie ("extra-large"){
+    
   }
 }
+

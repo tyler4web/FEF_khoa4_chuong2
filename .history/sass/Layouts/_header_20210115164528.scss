@@ -7,8 +7,8 @@ header {
         margin-left: 25px;
         margin-top: 5px;
         position: relative;
-        display: none;
         .form-search__icon {
+          display: none;
           position: absolute;
           z-index: 5;
           top: 6px;
@@ -67,23 +67,6 @@ header {
     .dropdown-menu_content {
       justify-content: space-between;
       padding-right: 30px;
-    }
-  }
-
-  @include responsive("large") {
-    .myNavBar {
-      .myNavBar__right {
-        .language,
-        .money {
-          display: none;
-        }
-        .navbar-nav {
-          flex-direction: row;
-          li {
-            margin-right: 20px;
-          }
-        }
-      }
     }
   }
 }

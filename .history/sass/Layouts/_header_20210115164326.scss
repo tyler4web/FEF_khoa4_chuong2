@@ -7,7 +7,6 @@ header {
         margin-left: 25px;
         margin-top: 5px;
         position: relative;
-        display: none;
         .form-search__icon {
           position: absolute;
           z-index: 5;
@@ -29,6 +28,12 @@ header {
         }
         .button-green {
           padding: 7px 20px;
+        }
+      }
+
+      @include repsonvie("large") {
+        .form-search__group {
+          display: none;
         }
       }
     }
@@ -67,23 +72,6 @@ header {
     .dropdown-menu_content {
       justify-content: space-between;
       padding-right: 30px;
-    }
-  }
-
-  @include responsive("large") {
-    .myNavBar {
-      .myNavBar__right {
-        .language,
-        .money {
-          display: none;
-        }
-        .navbar-nav {
-          flex-direction: row;
-          li {
-            margin-right: 20px;
-          }
-        }
-      }
     }
   }
 }

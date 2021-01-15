@@ -77,13 +77,12 @@ header {
         .money {
           display: none;
         }
-        .navbar-nav {
-          flex-direction: row;
-          li {
-            margin-right: 20px;
-          }
+         .navbar-nav{
+          flex-direction: row !important;
         }
       }
     }
+  }
+   @include responsive("small") {
   }
 }
