@@ -22,13 +22,14 @@ header {
         }
         .form-search__input {
           font-size: 15px;
-          padding-top: $pd-6;
+          padding-top: $pd6;
           border-right: 0;
           border-radius: 3px 0 0 3px;
           padding-left: $pd-7;
         }
         .button-green {
-          padding: $pd-9 $pd-3;
+          padding: 7px $pd3
+          ;
         }
       }
     }
@@ -43,7 +44,7 @@ header {
   .dropDown_navBar {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 $pd-1;
+    padding: 0 10px;
     border-top: 1px solid $color-gray-0;
     border-bottom: 1px solid $color-gray-0;
     .btn {
@@ -66,7 +67,7 @@ header {
 
     .dropdown-menu_content {
       justify-content: space-between;
-      padding-right: $pd-7;
+      padding-right: 30px;
     }
   }
 
@@ -80,7 +81,7 @@ header {
         .navbar-nav {
           flex-direction: row;
           li {
-            margin-right: $pd-3;
+            margin-right: 20px;
           }
         }
       }

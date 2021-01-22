@@ -22,7 +22,7 @@ header {
         }
         .form-search__input {
           font-size: 15px;
-          padding-top: $pd-6;
+          padding-top: $pd6;
           border-right: 0;
           border-radius: 3px 0 0 3px;
           padding-left: $pd-7;
@@ -66,7 +66,7 @@ header {
 
     .dropdown-menu_content {
       justify-content: space-between;
-      padding-right: $pd-7;
+      padding-right: $pd;
     }
   }
 
@@ -80,7 +80,7 @@ header {
         .navbar-nav {
           flex-direction: row;
           li {
-            margin-right: $pd-3;
+            margin-right: 20px;
           }
         }
       }

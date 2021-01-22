@@ -1,0 +1,106 @@
+.banner-top {
+  position: relative;
+  .carousel {
+    z-index: -99; /* keeps this behind all content */
+    .carousel-inner {
+      p {
+        color: white;
+        position: absolute;
+        bottom: $tbrl-2;
+        right: $tbrl-3;
+      }
+      .carousel-item {
+        z-index: 10;
+        width: 100%;
+        height: $h-2;
+        transition: opacity 1s;
+        background-size: cover;
+        background-position: center;
+      }
+      .one {
+        background: url(../../img/banner-top-1.jfif);
+      }
+      .two {
+        background: url(../../img/banner-top-5.jfif);
+      }
+      .three {
+        background: url(../../img/banner-top-3.jfif);
+      }
+    }
+  }
+  .banner-top__content {
+    position: absolute;
+    width: 50%;
+    margin-top: 18%;
+    left: 6%;
+    z-index: 1;
+    top: 4%;
+    h1 {
+      padding-bottom: $pd-9;
+      color: white;
+      line-height: 56px;
+      font-size: $fs-7;
+      i {
+        font-weight: $fw-4;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+  .banner-top-searchBar {
+    .form-search__group {
+      position: relative;
+      .form-search__icon {
+        position: absolute;
+        z-index: 5;
+        top: $tbrl-1;
+        left: $tbrl-2;
+        display: inline-block;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        fill: $color-gray-2;
+      }
+      .form-search__input {
+        font-size: $fs-1;
+        padding-top: $pd-6;
+        border-right: 0;
+        border-radius: 3px 0 0 3px;
+        padding-left: $pd-4;
+      }
+      .button-green {
+        padding: $pd-7 $pd-4;
+      }
+    }
+  }
+  .banner-top-popular {
+    display: flex;
+    color: white;
+    padding-top: $;
+    flex-wrap: wrap;
+    ul {
+      margin-left: 20px;
+      display: flex;
+      li {
+        display: flex;
+        margin-right: 12px;
+        white-space: nowrap;
+        a {
+          background-color: transparent;
+          line-height: 24px;
+          font-weight: 600;
+          color: #fff;
+          padding: 1px 12px 0;
+          border: 1px solid #fff;
+          border-radius: 40px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          text-decoration: none;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

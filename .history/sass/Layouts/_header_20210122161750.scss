@@ -1,6 +1,6 @@
 header {
   .myNavBar {
-    height: 80px;
+    height: $h-1;
     .myNavBar__left {
       display: flex;
       .form-search__group {
@@ -16,19 +16,19 @@ header {
           display: inline-block;
           background: none;
           border: none;
-          padding: 0;
-          margin: 0;
+          padding: $pd-0;
+          margin: $pd-0;
           fill: $color-gray-2;
         }
         .form-search__input {
-          font-size: 15px;
+          font-size: $fs-1;
           padding-top: $pd-6;
           border-right: 0;
           border-radius: 3px 0 0 3px;
-          padding-left: $pd-7;
+          padding-left: $pd-4;
         }
         .button-green {
-          padding: $pd-9 $pd-3;
+          padding: $pd-7 $pd-3;
         }
       }
     }
@@ -36,19 +36,19 @@ header {
       display: flex;
       justify-content: flex-end;
       .button-green-text {
-        margin-top: 5px;
+        margin-top: $mg-0;
       }
     }
   }
   .dropDown_navBar {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 $pd-1;
+    padding: $pd-5 $pd-0;
     border-top: 1px solid $color-gray-0;
     border-bottom: 1px solid $color-gray-0;
     .btn {
       border-radius: 0;
-      padding-bottom: 3px;
+      padding-bottom: $pd-8;
       a {
         color: $color-gray-2;
         text-decoration: none;
@@ -66,7 +66,7 @@ header {
 
     .dropdown-menu_content {
       justify-content: space-between;
-      padding-right: $pd-7;
+      padding-right: ;
     }
   }
 
@@ -80,7 +80,7 @@ header {
         .navbar-nav {
           flex-direction: row;
           li {
-            margin-right: $pd-3;
+            margin-right: 20px;
           }
         }
       }
